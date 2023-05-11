@@ -28,6 +28,8 @@
         <extension module="org.wildfly.extension.microprofile.health-smallrye"/>
         <extension module="org.wildfly.extension.microprofile.jwt-smallrye"/>
         <extension module="org.wildfly.extension.microprofile.openapi-smallrye"/>
+        <extension module="org.wildfly.extension.microprofile.reactive-messaging-smallrye"/>
+        <extension module="org.wildfly.extension.microprofile.reactive-streams-operators-smallrye"/>
         <extension module="org.wildfly.extension.microprofile.telemetry"/>
         <extension module="org.wildfly.extension.opentelemetry"/>
         <extension module="org.wildfly.extension.request-controller"/>
@@ -337,6 +339,8 @@
         <subsystem xmlns="urn:wildfly:microprofile-health-smallrye:3.0" security-enabled="false" empty-liveness-checks-status="${env.MP_HEALTH_EMPTY_LIVENESS_CHECKS_STATUS:UP}" empty-readiness-checks-status="${env.MP_HEALTH_EMPTY_READINESS_CHECKS_STATUS:UP}" empty-startup-checks-status="${env.MP_HEALTH_EMPTY_STARTUP_CHECKS_STATUS:UP}"/>
         <subsystem xmlns="urn:wildfly:microprofile-jwt-smallrye:1.0"/>
         <subsystem xmlns="urn:wildfly:microprofile-openapi-smallrye:1.0"/>
+        <subsystem xmlns="urn:wildfly:microprofile-reactive-messaging-smallrye:1.0"/>
+        <subsystem xmlns="urn:wildfly:microprofile-reactive-streams-operators-smallrye:1.0"/>
         <subsystem xmlns="urn:wildfly:microprofile-telemetry:1.0"/>
         <subsystem xmlns="urn:jboss:domain:naming:2.0"/>
         <subsystem xmlns="urn:wildfly:opentelemetry:1.0"/>
